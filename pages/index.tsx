@@ -1,6 +1,5 @@
 import Card from '@/components/Card'
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -60,7 +59,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" className="ml-2 h-4" />
+          <img src="/vercel.svg" alt="Vercel Logo" className="ml-2 h-4" />
         </a>
       </footer>
     </div>
